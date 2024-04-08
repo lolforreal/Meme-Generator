@@ -1,0 +1,39 @@
+/* Memegen.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #memeCanvas {
+    display: none; /* Hide canvas by default */
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  input[type="text"], button {
+    margin: 10px;
+    padding: 8px 12px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .form {
+    margin-bottom: 20px;
+  }
